@@ -1,0 +1,19 @@
+[worldserver]
+
+#
+#    Temucraft.Pushback.Mode
+#        Description: How damage pushes back a player's casts and channels.
+#                     0 - Off: never (as in today's game)
+#                     1 - Wrath: 0.5 seconds a hit for casts, 25% of the duration for channels, twice at most (stock)
+#                     2 - Classic: every hit pushes back, with no limit
+#        Default:     1
+
+Temucraft.Pushback.Mode = 1
+
+#
+#    Temucraft.Pushback.Classic.CastDelay
+#        Description: Classic only: how many milliseconds a cast loses each hit (500 is the Wrath amount).
+#                     Pushback reductions (talents, Concentration Aura) still apply.
+#        Default:     1000
+
+Temucraft.Pushback.Classic.CastDelay = 1000
